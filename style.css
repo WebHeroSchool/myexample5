@@ -1,0 +1,28 @@
+/* Устройства с экранами от 480px до 1024px */
+@media screen and (min-width: 481px) and (max-width:1024px) {
+
+  .title {
+    font-size: 40px;
+  }
+  .wrap__title {
+    font-size: 20px;
+  }
+}
+/* Устройства с шириной экрана 480px и ниже */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 40px;
+  }
+  .wrap__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .title {
+    font-size: 60px;
+  }
+  .wrap__title {
+    font-size: 50px;
+  }
+}
